@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShakyaDesign</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    
+</head>
+<body>
+    <section class="sub-header2">
+     <nav>
+        <a href="index.html"><img src="images/Logo3.png" alt="LOGO"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+     </nav>
+        <h1>Our Services !</h1>
+    </section>
+
+
+<!---section for services-->
+
+<section class="services">
+    <hr>
+ <h1>Services we Offer !</h1>
+ <p>We use mix of technology to create the complete responsive website. We use JavaScript , html and CSS to provide best of services. </p>
+ 
+<div class="row">
+
+    <div class="services-col">
+        <h1>Portfolio</h1>
+        <p>We use appropriate combination of technology and methods to provide the best and secure services to our customer.
+            And we provide this service at the reasonable price as compared to the current market.</p>
+    </div>
+
+    <div class="services-col">
+        <h1>Website</h1>
+        <p>We adopt the perfect blend of technology and method for the secure and realiable site. 
+            And we offer this service at very reasonable price as compared to current market.</p> 
+     </div>
+
+     <div class="services-col">
+        <h1>Hosting</h1>
+        <p>We give the complete solution from developement , maintanence to hosting. we are good in after services and believe in the customer satisfaction.</p> 
+     </div>
+
+
+</div>
+
+</section>
+
+
+<!---Footer-->
+
+<section class="footer">
+    <div class="aboutline"><hr></div>
+    <h4>About Us</h4>
+    <p>In this modern digital world , everyone want to be being searched on internet. And we are one stop , you should consider for your digital profile.
+       <Br>We want to help each customer , so that they can expand theirselves to the digital world.
+        Portfolio website is the most demanding services in this era. <br> We are happy to provide our services in the field of portfolio making , websites and hosting.
+    </p>
+    <div class="icons">
+        <a href="https://www.facebook.com/sachin.shakya.1426/" target="_blank"><i class="fa fa-facebook"></i></a>
+        <a href="https://www.instagram.com/shakya_empire/" target="_blank"><i class="fa fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/sachin-shakya-156aa494/" target="_blank"><i class="fa fa-linkedin"></i></a>
+        <a href="https://github.com/ShakyaEmpire" target="_blank"><i class="fa fa-github"></i></a>
+    </div>
+    <p>Copyright <i class="fa fa-copyright"></i> 2021 ShakyaDesign</p>
+
+</section>
+
+
+<!------JS for toggle menu ------>
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script> 
+
+</body>
+
+</html>
